@@ -57,7 +57,7 @@
     },
     "MENTION_USERS": {
       "description": "Limit number of search results",
-      "value": false,
+      "value": "false",
       "required": true
     },
     "BOT_USERNAME": {
@@ -72,7 +72,7 @@
     },
     "ANIT_SPAM_MODE": {
       "description": "Spam Mode",
-      "value": false,
+      "value": "false",
       "required": false
     },
     "TIDAL_TRACK_FORMAT": {
@@ -82,12 +82,12 @@
     },
     "QOBUZ_EMAIL": {
       "description": "Qobuz Mail",
-      "value": "{TrackTitle} - {ArtistName}",
+      "value": "",
       "required": false
     },
     "QOBUZ_PASSWORD": {
       "description": "Qobuz Pass",
-      "value": "{TrackTitle} - {ArtistName}",
+      "value": "",
       "required": false
     },
     "QOBUZ_TRACK_FORMAT": {
@@ -97,17 +97,17 @@
     },
     "KKBOX_KEY": {
       "description": "KKBOX Mail",
-      "value": "{TrackTitle} - {ArtistName}",
+      "value": "",
       "required": false
     },
     "KKBOX_EMAIL": {
       "description": "KKBOX Pass",
-      "value": "{TrackTitle} - {ArtistName}",
+      "value": "",
       "required": false
     },
     "KKBOX_PASSWORD": {
       "description": "KKBOX Track Format",
-      "value": "{tracknumber}. {tracktitle}",
+      "value": "{",
       "required": false
     },
     "DATABASE_URL": {
