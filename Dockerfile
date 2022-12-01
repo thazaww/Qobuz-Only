@@ -11,6 +11,7 @@ RUN apt-get -qq update --fix-missing
 RUN apt-get -qq install -y git wget curl busybox python3 python3-pip locales
 
 RUN apt install python3-pip
+RUN pip3 install psycopg2-binary 
 
 COPY requirements.txt .
 
