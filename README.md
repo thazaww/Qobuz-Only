@@ -73,3 +73,22 @@ python -m bot
 - To delete the images:
 
         sudo docker image prune -a
+
+
+
+
+
+
+
+## Bot Commads Details
+#### Info about available commands for the bot
+#### Authentication is done in the settings panel. Use /settings command
+#### Copy paste these commands in BotFather
+
+```
+start - Start the bot
+download - dl
+auth - auth user [Admin Only]
+admin_settings - settings [Admin Only]
+
+```
