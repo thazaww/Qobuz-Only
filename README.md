@@ -1,13 +1,5 @@
-## Heroku Deploy
-Use the below button to deploy the bot in Heroku.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-
 # AIO-Music-Helper-Bot
 Telegram bot to manage all your music needs.
-
-## ⚠️ WORK IN PROGRESS ⚠️
 
 
 ## Deploy VPS METHOD-1
@@ -87,8 +79,11 @@ python -m bot
 
 ```
 start - Start the bot
-download - dl
-auth - auth user [Admin Only]
-admin_settings - settings [Admin Only]
+dl - download music
+auth - Add user as admin user [Admin Only]
+settings - settings [Admin Only]
+sudo - add user
+shell - shell cmds
+help - help bot
 
 ```
