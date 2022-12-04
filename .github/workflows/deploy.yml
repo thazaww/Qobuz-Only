@@ -36,3 +36,4 @@ jobs:
           HD_AUTH_CHAT: ${{secrets.AUTH_CHAT}}
           HD_AUTH_USERS: ${{secrets.AUTH_USERS}}
           HD_ANIT_SPAM_MODE: ${{secrets.ANIT_SPAM_MODE}}
+          HD_KKBOX_KEY: ${{secrets.KKBOX_KEY}}
