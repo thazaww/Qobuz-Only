@@ -57,7 +57,7 @@
     },
     "MENTION_USERS": {
       "description": "Limit number of search results",
-      "value": false,
+      "value": "false",
       "required": false
     },
     "BOT_USERNAME": {
@@ -72,7 +72,7 @@
     },
     "ANIT_SPAM_MODE": {
       "description": "Spam Mode",
-      "value": false,
+      "value": "false",
       "required": false
     },
     "TIDAL_TRACK_FORMAT": {
