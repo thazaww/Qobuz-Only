@@ -6,10 +6,10 @@ class EN(object):
 # BASICS
 #
 #----------------
-    WELCOME_MSG = "Hello {} Sir"
-    START_DOWNLOAD = "Starting to download..........."
-    ANTI_SPAM_WAIT = "Wait for the current task to complete!"
-    TASK_COMPLETED = "Download Finished"    
+    WELCOME_MSG = "👋🏽 𝐇𝐢 {}"
+    START_DOWNLOAD = "⏬ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠.."
+    ANTI_SPAM_WAIT = "🔂 𝐖𝐚𝐢𝐭 𝐭𝐚𝐬𝐤 𝐭𝐨 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞!"
+    TASK_COMPLETED = "✅ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝"    
 
 
 
@@ -18,23 +18,23 @@ class EN(object):
 # AUTHENTICATIONS
 #
 #----------------
-    CHAT_AUTH_SUCCESS = "Successfully authed {0} <code>{1}</code>"
-    ADD_ADMIN_SUCCESS = "Successfully added {} as an admin"
-    NO_ID_TO_AUTH = "No ID provided to add!"
+    CHAT_AUTH_SUCCESS = "✅ Successfully authed {0} <code>{1}</code>"
+    ADD_ADMIN_SUCCESS = "✅ Successfully added {} as an admin"
+    NO_ID_TO_AUTH = "⛔️ No ID provided to add!"
     # TIDAL
-    TIDAL_NOT_AUTH = "No Tidal Logins Given."
+    TIDAL_NOT_AUTH = "❌ 𝗡𝗼 𝗧𝗶𝗱𝗮𝗹 𝗟𝗼𝗴𝗶𝗻𝘀"
     TIDAL_AUTH_NEXT_STEP = "Go to {0} within the next {1} to complete tidal authentication."
-    TIDAL_AUTH_SUCCESS = "Tidal authentication successful.\n\nIt is now valid for {}"
-    TIDAL_ALREADY_AUTH = "Your authentication is already done.\nIts is valid for {}"
+    TIDAL_AUTH_SUCCESS = "✅ Tidal authentication successful.\n\nIt is now valid for {}"
+    TIDAL_ALREADY_AUTH = "✅ Your authentication is already done.\nIts is valid for {}"
     TIDAL_API_KEY_CHANGED = "Successfully updated the API Key to {} - {}"
     # KKBOX
-    KKBOX_NOT_AUTH = "KKBOX account credentials not given or subcription expired"
+    KKBOX_NOT_AUTH = "❌ KKBOX account credentials not given or subcription expired"
     # DEEZER
-    DEEZER_NOT_AUTH = "Deezer credentials not provided"
+    DEEZER_NOT_AUTH = "❌ Deezer credentials not provided"
     # QOBUZ
-    QOBUZ_NOT_AUTH = "Qobuz credentials not provided"
+    QOBUZ_NOT_AUTH = "❌ Qobuz credentials not provided"
     # SPOTIFY
-    SPOTIFY_NOT_AUTH = "Spotify credentials not provided"
+    SPOTIFY_NOT_AUTH = "❌ Spotify credentials not provided"
 
 
 
