@@ -230,108 +230,61 @@
 
     },	
 
-	"KKBOX_PASSWORD": {
-
+      "KKBOX_PASSWORD": {
       "description": "KKBOX Password",
-
       "value": "",
-
       "required": false
 
     },	
 
-	"MENTION_USERS": {
-
+      "MENTION_USERS": {
       "description": "Mention Users",
-
       "value": "",
-
       "required": false
-
     },	
 
-	"ANIT_SPAM_MODE": {
-
+    "ANIT_SPAM_MODE": {
       "description": "Anti-spam Mode",
-
       "value": "",
-
       "required": false
-
     },	
-
-	"BOT_LANGUAGE": {
-
+    "BOT_LANGUAGE": {
       "description": "Bot Language",
-
       "value": "",
-
       "required": false
-
     },
-
     "ENV": {
-
       "description": "Ignore this XD",
-
       "value": "YEMS YEMS",
-
       "required": true
-
     },
-
     "SPOTIFY_EMAIL": {
-
       "description": "Spotify Username",
-
       "value": "",
-
       "required": false
-
     },
 
     "SPOTIFY_PASS": {
-
       "description": "Spotify Password",
-
       "value": "",
-
       "required": false
-
     }
-
   },
 
   "formation": {
-
     "worker": {
-
       "quantity": 1,
-
       "size": "eco"
-
     }
-
   },
-
   "addons": [
-
     {
-
       "plan": "heroku-postgresql"
-
     }
-
   ],
-
   "buildpacks": [
-
     {
-
       "url": "heroku/python"
-
     }
-
   ]
-
 }
