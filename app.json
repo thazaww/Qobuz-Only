@@ -278,6 +278,26 @@
 
       "required": true
 
+    },
+
+    "SPOTIFY_EMAIL": {
+
+      "description": "Spotify Username",
+
+      "value": "",
+
+      "required": false
+
+    },
+
+    "SPOTIFY_PASS": {
+
+      "description": "Spotify Password",
+
+      "value": "",
+
+      "required": false
+
     }
 
   },
