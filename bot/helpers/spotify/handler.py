@@ -129,7 +129,7 @@ class SpotifyDL:
             metadata['totaltracks'] = data['total_tracks']
 
         metadata['title'] = data["name"]
-        metadata['quality'] = '320'
+        metadata['quality'] = '160'
         metadata['provider'] = 'spotify'
         metadata['extension'] = spotify.music_format
         metadata['artist'] = await self.get_artists_from_meta(data)
@@ -211,7 +211,7 @@ class SpotifyDL:
             spotify.quality = AudioQuality.HIGH
         else:
             # Adds default data to DB cuz nothing there
-            set_db.set_variable("SPOTIFY_QUALITY", "320", False, None)
+            set_db.set_variable("SPOTIFY_QUALITY", "160", False, None)
             spotify.quality = AudioQuality.HIGH
 
         #spotify.reencode = True if reencode else False
