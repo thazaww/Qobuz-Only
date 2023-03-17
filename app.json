@@ -1,36 +1,122 @@
-      "description": "Users who can access the bot (needed only is bot set to private)",
+{
 
-      "value": "",
+  "name": "Aio-Dl Bot",
 
-      "required": false
+  "description": "qobuz-tidal-deezer-kkbox platformunu indirmek için Telegram botu",
+
+  "anahtar kelimeler": [
+
+    "telgraf",
+
+    "müzik",
+
+    "yükleyici"
+
+  ],
+
+  "web sitesi": "https://github.com/vinayak-7-0-3/AIO-Music-Helper",
+
+  "depo": "https://github.com/vinayak-7-0-3/AIO-Music-Helper",
+
+  "success_url": "https://github.com/vinayak-7-0-3/AIO-Music-Helper",
+
+  "ortam": {
+
+    "TG_BOT_TOKEN": {
+
+      "description": "Telegram bot jetonunuz",
+
+      "değer": "",
+
+      "gerekli": doğru
+
+    },
+
+    "APP_ID": {
+
+      "description": "Telegram Uygulama Kimliğiniz",
+
+      "değer": "",
+
+      "gerekli": doğru
+
+    },
+
+    "API_HASH": {
+
+      "description": "Telegram Uygulama Hash'iniz",
+
+      "değer": "",
+
+      "gerekli": doğru
+
+    },
+
+    "AUTH_CHAT": {
+
+      "description": "Botun çalışacağı sohbetler",
+
+      "değer": "",
+
+      "gerekli": yanlış
+
+    },
+
+    "YÖNETİCİLER": {
+
+      "description": "Yönetici Kimliği (yani SUDO Erişimi)",
+
+      "değer": "",
+
+      "gerekli": doğru
+
+    },
+
+    "IS_BOT_PUBLIC": {
+
+      "description": "Bot'a genel erişime izin vermek istiyor musunuz? (Doğru/Yanlış)",
+
+      "değer": "Yanlış",
+
+      "gerekli": doğru
+
+    },
+
+    "AUTH_USERS": {
+
+      "description": "Bota erişebilen kullanıcılar (yalnızca botun özel olarak ayarlanması gerekir)",
+
+      "değer": "",
+
+      "gerekli": yanlış
 
     },
 
     "BOT_USERNAME": {
 
-      "description": "Username of your bot (use with or without @)",
+      "description": "Botunuzun kullanıcı adı (@ ile veya @ olmadan kullanın)",
 
-      "value": "",
+      "değer": "",
 
-      "required": true
+      "gerekli": doğru
 
     },    
 
-	"DEEZER_BF_SECRET": {      "description": "Deezer Api bf-Secret",
+	"DEEZER_BF_SECRET": { "description": "Deezer Api bf-Gizli",
 
-      "value": "g4el58wc0zvf9na1",
+      "değer": "g4el58wc0zvf9na1",
 
-      "required": true
+      "gerekli": doğru
 
     },    
 
 	"DEEZER_TRACK_URL_KEY": {
 
-      "description": "Deezer Api track url key",
+      "description": "Deezer Api izleme url anahtarı",
 
-      "value": "jo6aey6haid2Teih",
+      "değer": "jo6aey6haid2Teih",
 
-      "required": true
+      "gerekli": doğru
 
     },    
 
@@ -38,197 +124,197 @@
 
       "description": "Deezer Email",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },	
 
-	"DEEZER_PASSWORD": {
+	"DEEZER_ŞİFRE": {
 
-      "description": "Deezer Pass",
+      "description": "Deezer Geçişi",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },	
 
 	"DOWNLOADS_FOLDER": {
 
-      "description": "Downloader folder",
+      "description": "İndirici klasörü",
 
-      "value": "DOWNLOADS",
+      "değer": "İNDİRMELER",
 
-      "required": true
+      "gerekli": doğru
 
     },	
 
 	"QOBUZ_EMAIL": {
 
-      "description": "Username of your bot (use with or without @)",
+      "description": "Botunuzun kullanıcı adı (@ ile veya @ olmadan kullanın)",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },	
 
 	"QOBUZ_PASSWORD": {
 
-      "description": "Username of your bot (use with or without @)",
+      "description": "Botunuzun kullanıcı adı (@ ile veya @ olmadan kullanın)",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },	
 
         "DEEZER_ARL": {
 
-      "description": "Deezer Arl Token",
+      "description": "Deezer Arl Jetonu",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },	
 
 	"QOBUZ_TRACK_FORMAT": {
 
-      "description": "Qobuz Track Format",
+      "description": "Qobuz Parça Formatı",
 
       "value": "{tracknumber}. {tracktitle}",
 
-      "required": true
+      "gerekli": doğru
 
     },	
 
 	"TIDAL_TRACK_FORMAT": {
 
-      "description": "Tidal Track Format",
+      "description": "Gelgit İzi Biçimi",
 
-      "value": "{TrackTitle} - {ArtistName}",
+      "value": "{TrackTitle} - {SanatçıAdı}",
 
-      "required": true
+      "gerekli": doğru
 
     },	
 
-	"WORK_DIR": {
+	"İŞ_YÖNÜ": {
 
-      "description": "Workdir",
+      "description": "Çalışma dizini",
 
-      "value": "./bot/",
+      "değer": "./bot/",
 
-      "required": true
+      "gerekli": doğru
 
     },	
 
 	"KKBOX_KEY": {
 
-      "description": "KKBOX Api-Key: 7f1a68f00b747f4ac1469c72e7ef492c ",
+      "description": "KKBOX Api-Key: 7f1a68f00b747f4ac1469c72e7ef492c",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },	
 
 	"KKBOX_EMAIL": {
 
-      "description": "KKBOX Email",
+      "description": "KKBOX E-postası",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },	
 
 	"KKBOX_PASSWORD": {
 
-      "description": "KKBOX Password",
+      "description": "KKBOX Şifresi",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },	
 
 	"MENTION_USERS": {
 
-      "description": "Mention Users",
+      "description": "Kullanıcılardan Bahset",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },	
 
 	"ANIT_SPAM_MODE": {
 
-      "description": "Anti-spam Mode",
+      "description": "Spam Önleme Modu",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },	
 
 	"BOT_LANGUAGE": {
 
-      "description": "Bot Language",
+      "description": "Bot Dili",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },
 
-    "ENV": {
+    "Çevre": {
 
-      "description": "Ignore this XD",
+      "description": "Bu XD'yi yoksay",
 
-      "value": "YEMS YEMS",
+      "değer": "YEMS YEMS",
 
-      "required": true
+      "gerekli": doğru
 
     },
 
     "SPOTIFY_EMAIL": {
 
-      "description": "Spotify Username",
+      "description": "Spotify Kullanıcı Adı",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
+      "gerekli": yanlış
 
     },
 
     "SPOTIFY_PASS": {
 
-      "description": "Spotify Password",
+      "description": "Spotify Şifresi",
 
-      "value": "",
+      "değer": "",
 
-      "required": false
-
-    }
-
-  },
-
-  "formation": {
-
-    "worker": {
-
-      "quantity": 1,
-
-      "size": "eco"
+      "gerekli": yanlış
 
     }
 
   },
 
-  "addons": [
+  "oluşum": {
+
+    "çalışan": {
+
+      "Adet: 1,
+
+      "boyut": "eko"
+
+    }
+
+  },
+
+  "eklentiler": [
 
     {
 
@@ -238,7 +324,7 @@
 
   ],
 
-  "buildpacks": [
+  "derleme paketleri": [
 
     {
 
