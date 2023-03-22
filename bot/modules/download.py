@@ -55,7 +55,7 @@ async def download_track(bot, update):
             )
             botmsg_id = msg.id
             if update.from_user.username:
-                u_name = f"@{update.from_user.username}"
+                u_name = f'<a href="tg://user?id={update.from_user.id}">{update.from_user.first_name}</a>'
             else:
                 u_name = f'<a href="tg://user?id={update.from_user.id}">{update.from_user.first_name}</a>'
 
