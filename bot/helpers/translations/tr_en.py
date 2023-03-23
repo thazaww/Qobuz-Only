@@ -7,9 +7,9 @@ class EN(object):
 #
 #----------------
     WELCOME_MSG = "👋🏽 𝐇𝐢 {}"
-    START_DOWNLOAD = "⏬ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠.."
-    ANTI_SPAM_WAIT = "🔂 𝐖𝐚𝐢𝐭 𝐭𝐚𝐬𝐤 𝐭𝐨 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞!"
-    TASK_COMPLETED = "✅ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝"    
+    START_DOWNLOAD = "⏬ 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚.."
+    ANTI_SPAM_WAIT = "⛔️ 𝗪𝗔𝗜𝗧 𝗧𝗢 𝗧𝗔𝗦𝗞 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘!"
+    TASK_COMPLETED = "✅ 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗"    
 
 
 
@@ -22,7 +22,7 @@ class EN(object):
     ADD_ADMIN_SUCCESS = "✅ Successfully added {} as an admin"
     NO_ID_TO_AUTH = "⛔️ No ID provided to add!"
     # TIDAL
-    TIDAL_NOT_AUTH = "❌ 𝗡𝗼 𝗧𝗶𝗱𝗮𝗹 𝗟𝗼𝗴𝗶𝗻𝘀"
+    TIDAL_NOT_AUTH = "❌ 𝗡𝗢 𝗧𝗜𝗗𝗔𝗟 𝗟𝗢𝗚𝗜𝗡"
     TIDAL_AUTH_NEXT_STEP = "Go to {0} within the next {1} to complete tidal authentication."
     TIDAL_AUTH_SUCCESS = "✅ Tidal authentication successful.\n\nIt is now valid for {}"
     TIDAL_ALREADY_AUTH = "✅ Your authentication is already done.\nIts is valid for {}"
@@ -43,8 +43,8 @@ class EN(object):
 # MUSIC DETAILS - TELEGRAM
 #
 #----------------
-    USER_MENTION_ALBUM = "❤️ <b>Requested by :</b> {}"
-    USER_MENTION_TRACK = "Requested by {}"
+    USER_MENTION_ALBUM = "<b>ᴅᴏᴡɴʟᴏᴀᴅ ʙʏ :</b> {}"
+    USER_MENTION_TRACK = "<b>ᴅᴏᴡɴʟᴏᴀᴅ ʙʏ <b>{}"
 
     # TIDAL
     TIDAL_ALBUM_DETAILS = """
@@ -65,10 +65,10 @@ class EN(object):
 
     # QOBUZ
     QOBUZ_ALBUM_DETAILS = """
-🎶 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-📀 <b>Number of Tracks :</b> {3}
+<b>ᴛɪᴛʟᴇ :</b> {0}
+<b>ᴀʀᴛɪꜱᴛ :</b> {1}
+<b>ʀᴇʟᴇᴀꜱᴇ :</b> {2}
+<b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
 """
 
     
@@ -90,7 +90,7 @@ class EN(object):
 """
 
 
-    QUALITY_ADDON = "💫 <b>Quality :</b> {} \n"
+    QUALITY_ADDON = "<b>Qᴜᴀʟɪᴛʏ :</b> {}\n"
 
     
 
