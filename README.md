@@ -2,7 +2,9 @@
 ## Telegram bot to manage all your music needs.
 <br>
 
-https://dashboard.heroku.com/new?template=https://github.com/MKA2025/AIO-Music/test
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
 
 ### ⚠️ WORK IN PROGRESS ⚠️
 ### Bot is almost in a working state !
