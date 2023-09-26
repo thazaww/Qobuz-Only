@@ -43,50 +43,52 @@ class EN(object):
 # MUSIC DETAILS - TELEGRAM
 #
 #----------------
-    USER_MENTION_ALBUM = "<b>ᴅᴏᴡɴʟᴏᴀᴅ ʙʏ :</b> {}"
-    USER_MENTION_TRACK = "<b>ᴅᴏᴡɴʟᴏᴀᴅ ʙʏ <b>{}"
+    USER_MENTION_ALBUM = "<b>ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :</b> {}"
+    USER_MENTION_TRACK = "<b>ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ <b>{}"
 
     # TIDAL
     TIDAL_ALBUM_DETAILS = """
-💽 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-📀 <b>Number of Tracks :</b> {3}
-🕒 <b>Duration :</b> {4}
-🔢 <b>Number of Volumes :</b> {5}
+💽 <b>ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {0}
+👤 <b>ᴀʀᴛɪꜱᴛ :</b> {1}
+📅 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {2}
+📀 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
+📦 <b>ᴘʟᴀᴛꜰᴏʀᴍ :</b> {4}
 """
     # KKBOX
     KKBOX_ALBUM_DETAILS = """
-🎶 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-📀 <b>Number of Tracks :</b> {3}
+🎶 <b>ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {0}
+👤 <b>ᴀʀᴛɪꜱᴛ :</b> {1}
+📅 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {2}
+📀 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
 """
 
     # QOBUZ
     QOBUZ_ALBUM_DETAILS = """
-<b>ᴛɪᴛʟᴇ :</b> {0}
+<b>ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {0}
 <b>ᴀʀᴛɪꜱᴛ :</b> {1}
-<b>ʀᴇʟᴇᴀꜱᴇ :</b> {2}
+<b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {2}
 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
+<b>ᴘʟᴀᴛꜰᴏʀᴍ :</b> {4}
 """
 
     
     # DEEZER
     DEEZER_ALBUM_DETAILS = """
-🎶 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-🔢 <b>Total Tracks :</b> {3}
+🎶 <b>ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {0}
+👤 <b>ᴀʀᴛɪꜱᴛ :</b> {1}
+📅 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {2}
+🔢 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
+📦 <b>ᴘʟᴀᴛꜰᴏʀᴍ :</b> {4}
 """
 
 
     # SPOTIFY
     SPOTIFY_ALBUM_DETAILS = """
-🎶 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-🔢 <b>Total Tracks :</b> {3}
+🎶 ᴀʟʙᴜᴍ ᴛɪᴛʟᴇ :</b> {0}
+👤 <b>ᴀʀᴛɪꜱᴛ :</b> {1}
+📅 <b>ʀᴇʟᴇᴀꜱᴇ ᴅᴀᴛᴇ :</b> {2}
+🔢 <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> {3}
+📦 <b>ᴘʟᴀᴛꜰᴏʀᴍ :</b> {4}
 """
 
 
