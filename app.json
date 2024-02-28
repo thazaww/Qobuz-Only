@@ -1,6 +1,6 @@
 {
 
-  "name": "Aio-Dl Bot",
+  "name": "Higt-Resolution Channel AIO",
 
   "description": "Telegram bot to download qobuz-tidal-deezer-kkbox platform",
 
@@ -167,9 +167,24 @@
       "value": "",
 
       "required": false
-
+	
     },	
+	"Qobuz_CHAT": {
 
+      "description": "Chats where the bot will work",
+
+      "value": "",
+
+      "required": false
+    },		
+	"Tidal_CHAT": {
+
+      "description": "Chats where the bot will work",
+
+      "value": "",
+
+      "required": false
+    },		  
         "DEEZER_ARL": {
 
       "description": "Deezer Arl Token",
