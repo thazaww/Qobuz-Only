@@ -167,8 +167,26 @@
       "value": "",
 
       "required": false
-
+		
     },	
+	"Qobuz_CHAT": {
+
+      "description": "Chats where the bot will work",
+
+      "value": "",
+
+      "required": false
+
+    },
+	"Tidal_CHAT": {
+
+      "description": "Chats where the bot will work",
+
+      "value": "",
+
+      "required": false
+
+    },
 
         "DEEZER_ARL": {
 
